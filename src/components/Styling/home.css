@@ -1,0 +1,14 @@
+/* all colors in scss can be used here to keep it fluid and have less repetitive code */
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h1-home {
+    padding: 40px;
+    text-shadow: 30px;
+}
+
+h2 {
+    padding: 50px;
+}

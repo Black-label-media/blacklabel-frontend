@@ -1,0 +1,8 @@
+.h1-header {
+    /* bottom: 0; */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
