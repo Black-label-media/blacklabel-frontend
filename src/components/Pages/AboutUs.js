@@ -1,4 +1,3 @@
-// import '../Styling/footer.css';
 
 
 function AboutUs() {

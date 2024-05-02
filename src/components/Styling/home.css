@@ -4,9 +4,10 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.h1-home {
-    padding: 40px;
-    text-shadow: 30px;
+.home {
+    text-align: center;
+    position: fixed;
+    padding: 15% 40%;
 }
 
 h2 {
