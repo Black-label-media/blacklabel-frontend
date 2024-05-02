@@ -1,6 +1,6 @@
 import React from "react";
 import blaPhoto from "../../visuals/1.png";
-import '../Styling/header.css';
+import '../Styling/Components/header.css';
 
 const HeaderComp = () => {
     return (

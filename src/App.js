@@ -1,25 +1,23 @@
 import './App.css';
+import './components/Styling/index.css';
 import Home from './components/Pages/Home';
+import AboutUs from './components/Pages/AboutUs';
+import NoPage from './components/Pages/NoPage';
+import Contact from './components/Pages/Contact';
 import * as React from "react";
-import { createRoot } from "react-dom/client";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-const root = createRoot(document.getElementById("root"));
-
-
-root.render(
-  <BrowserRouter>
-  
-  </BrowserRouter>
-);
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter>
     <Routes>
-        <Route path="/" />
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
-      <Home />
     </BrowserRouter>
   );
 }

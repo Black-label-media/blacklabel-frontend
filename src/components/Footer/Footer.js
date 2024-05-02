@@ -1,4 +1,4 @@
-import '../Styling/footer.css';
+import '../Styling/Components/footer.css';
 
 
 function Footer() {

@@ -1,4 +1,4 @@
-
+import '../Styling/Pages/aboutUs.css'
 
 function AboutUs() {
     return (
