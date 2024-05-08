@@ -1,0 +1,21 @@
+/* all colors in scss can be used here to keep it fluid and have less repetitive code */
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home {
+    text-align: center;
+    position: fixed;
+    padding: 5% 40%;
+    color: whitesmoke;
+}
+
+h2 {
+    padding: 50px;
+}
+
+.main-button {
+    color: aliceblue;
+    background-color: rgb(90, 79, 66);
+}
