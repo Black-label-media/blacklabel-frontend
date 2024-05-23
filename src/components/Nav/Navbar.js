@@ -8,6 +8,8 @@ return(
             <li><a href="/aboutUs">About us</a></li>
             <li><a href="/">Services</a></li>
             <li><a href="/">Contact us</a></li>
+            <li><a href="/CaseStudies">Case Studies</a></li>
+
         </ul>
     </div>
 )
